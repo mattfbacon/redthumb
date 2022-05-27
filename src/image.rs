@@ -1,7 +1,7 @@
 use cairo::Context;
 use std::io::{Read, Write};
 
-const REDDIT_LOGO: &[u8; 22323] = core::include_bytes!("reddit.png");
+static REDDIT_LOGO: &[u8; 22323] = core::include_bytes!("reddit.png");
 
 const WIDTH: i32 = 1920;
 const HEIGHT: i32 = 1080;
